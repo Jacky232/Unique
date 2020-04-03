@@ -1,0 +1,351 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: ;
+	line-height: 24px;
+	font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: ;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header-section{
+	background: url(../img/Hero.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+.header-section .Logo{
+	width: 117px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    background: url(../img/Layer_8.png) center bottom no-repeat;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #1a1a1a;
+    margin: 0px 3px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #511de5;
+    background: url(../img/Layer_8.png) center bottom no-repeat;
+}
+.nav-link {
+	font-size: 16px;
+    display: block;
+    padding: 4px 34px 5px;
+    margin-left: 11px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-item .nav{
+	font-size: 16px;
+    display: block;
+    padding: 4px 34px 5px;
+    margin-left: 11px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 12px;
+    transition: 1s;
+}
+.btn-info {
+    color: #fff;
+    background-color: #511de5;
+    border-color: #511de5;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav .nav-item .nav-link:hover{
+	color: #fff;
+    background-color: #511de5;
+    border-color: #511de5;
+}
+.btn-info:hover{
+	color: #fff;
+    background-color: transparent;
+}
+.banner{
+	width: 100%;
+	padding: 162px 0px;
+}
+.banner .banner-inner h1{
+	font-size: 56px;
+    font-weight: 500;
+}
+.banner .banner-inner strong{
+	font-size: 53px;
+	color: #511de5;
+}
+.btn-warning{
+	border: 1px solid;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 39px;
+    border-radius: 20px;
+    background: transparent;
+    margin-top: 37px;
+}
+
+
+
+.heighlight{
+	width: 100%;
+	background: url(../img/area.png) center top no-repeat;
+	background-size: cover;
+	padding:50px 0px;
+	text-align: center;
+}
+.heighlight h3{
+	margin-top: 50px;
+	color: #fff
+}
+.fetures-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.fetures-section .fetures-inner{
+	width: 100%;
+	background: url(../img/illustration_for_basekit.png) center top no-repeat;
+	background-size: cover;
+	box-shadow: 1px 4px 10px #ccc;
+	padding-bottom: 85px;
+}
+.fetures-section .fetures-inner h2{
+	padding: 65px 1px 6px 60px;
+	font-size: 55px;
+
+}
+.fetures-section .fetures-inner p{
+	padding: 20px 1px 6px 60px;
+	font-size: 17px;
+    font-weight: 500;	
+}
+.fetures-section .fetures-inner strong{
+	color: #511de5;
+	font-size: 70px;
+	padding: 0px 38px 0px 0px;
+}
+.fetures-section .fetures-inner .inner{
+	font-size: 19px;
+    font-weight: 600;
+}
+.fetures-section .fetures-inner .inner{
+	padding: 50px 1px 75px 60px;
+}
+.clint{
+	width: 100%;
+	padding: 82px 0px;
+	text-align: center;
+    margin-left: 70px;
+}
+.introducing-section{
+	width: 100%;
+	background:url(../img/Rectangle_8.png) center bottom no-repeat;
+	background-size: cover;
+}
+.introducing-section .intro-inner{
+    width: 100%;
+	background: url(../img/Quote.png)center top no-repeat;
+	background-size: cover;
+	padding: 65px 30px;
+    padding-bottom: 18px;
+}
+.introducing{
+	width: 57%;
+    margin: 97px;
+    margin-left: 117px;
+    color: #fff;
+}
+.intro-in{
+	width: 100%;
+	padding-top: 102px;
+}
+.intro-in h3{
+	width: 100%;
+	font-size: 43px;
+}
+.intro-in .btn-warning{
+	border: 1px solid;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 39px;
+    border-radius: 20px;
+    background: #fff;
+    margin-top: 37px;
+}
+.effciency{
+	padding: 60px;
+}
+.effciency-inner{
+	padding: 40px 0px;
+}
+.effciency .effciency-inner h5{
+	font-size: 13px;
+    padding-top: 17px;
+    padding-bottom: 28px;
+}
+.effciency-inner .btn-warning{
+	border: 1px solid;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 39px;
+    border-radius: 20px;
+    background: #1f6df5;
+    margin-top: 37px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.effciency-inner img {
+    padding-bottom: 16px;
+    margin-right: 34px;
+}
+ .inner{
+	width: 100%;
+	padding-top: 55px;
+}
+.effciency2{
+	width: 100%;
+	background-color: #fcfcfc;
+	padding: 51px;
+	border-bottom: 1px solid #e9e9e9;
+	border-top: 1px solid #e9e9e9;
+}
+.effciency2-in{
+	width: 100%;
+	text-align: center;
+}
+.effciency2-in .eff-inner{
+	width: 100%;
+    text-align: center;
+}
+.eff-inner{
+	width: 100%;
+    text-align: center;
+}
+.effciency2 .effciency2-in h1{
+	padding-bottom: 20px;
+	font-size: 45px;
+}
+.effciency2 .effciency2-in h5{
+	padding-bottom: 40px;
+	font-size: 12px;
+
+}
+.eff-inner .in{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.inspirational{
+	width: 100%;
+	padding:11px;
+	padding-bottom: 55px;
+}
+.ins-inner{
+	width: 100%;
+	text-align: center;
+}
+.ins-inner h1{
+	font-size: 50px;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+.inspirational-inner{
+    color: #999999;
+	text-align: center;
+	background: url(../img/Rectangle.png) center top no-repeat;
+	background-size: cover;
+	padding: 94px 0px;
+
+}
+.inspirational-inner h5{
+	padding: 60px 0px;
+}
+.inspirational-inner .divider{
+	width: 92%;
+    height: 2px;
+    margin: 10px;
+    background: #f4f4f4;
+}
+.inspirational-inner img{
+	padding: 10px;
+}
+.inspirational-inner h6{
+	padding: 10px;
+}
+.inspirational-inner:hover{
+	color: black;
+    background-color: transparent;
+    border-color: #f4f4f4;
+}
+.inspirational-inner h5:hover{
+	color: blue;
+    background-color: transparent;
+    border-color: #f4f4f4;
+}
+.footer-section{
+	background: url(../img/21.png) center bottom no-repeat;
+	background-size: cover;
+}
+.footer-inner{
+	text-align: left;
+}
+.footer-main{
+	background: #fff;
+	text-align: center;
+	margin-bottom: 72px;
+	    box-shadow: 1px -3px 10px #ccc;
+}
+.footer-main .footer-in{
+
+}
+.footer-main .footer-in h1{
+	font-size: 46px;
+    font-weight: 700;
+    padding: 53px 0px;
+}
+.footer-main .footer-inner{
+    padding: 50px 82px
+}
+.footer-main .footer-inner .foot{
+	font-size: 17px;
+    color: #511de5
+}
+.footer-main .footer-inner p{
+	font-size: 14px;
+    font-weight: 500;
+}
+.footer-main .footer-inner h4{
+	font-size: 17px;
+	padding: 4px 0px;
+}
+.footer-bottom{
+    padding-bottom: 15px;
+    margin-bottom: 47px;
+}
+.footer-bottom p{
+	font-size: 15px;
+    font-weight: 600;
+
+}
+.footer-bottom p a{
+	color: #fff;
+	padding-left: 16px;
+}
+.bottom{
+
+}
+.bottom p{
+	font-size: 15px;
+    color: #fff;
+
+}		
